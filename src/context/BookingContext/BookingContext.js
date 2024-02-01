@@ -1,4 +1,3 @@
-// BookingContext.js
 import React, { createContext, useContext, useReducer } from 'react';
 
 const BookingContext = createContext();

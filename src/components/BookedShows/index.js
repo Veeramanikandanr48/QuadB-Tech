@@ -5,7 +5,6 @@ const BookedShows = () => {
   const { bookedShows, removeBookedShow } = useBookingContext();
 
   const handleRemove = (index) => {
-    // Call the removeBookedShow function with the index of the show to be removed
     removeBookedShow(index);
   };
 

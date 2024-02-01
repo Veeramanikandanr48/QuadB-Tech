@@ -9,8 +9,8 @@ const Navbar = () => {
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container d-flex flex-row">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark pt-0">
+      <div className="container d-flex justify-content-between align-items-center">
         <Link className="navbar-brand" to="/">
           TV Shows
         </Link>
