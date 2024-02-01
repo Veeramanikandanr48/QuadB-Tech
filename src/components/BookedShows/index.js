@@ -9,7 +9,7 @@ const BookedShows = () => {
   };
 
   return (
-    <div className="container mt-5" style={{ height: '100vh' }}>
+    <div className="container p-5" style={{ height: '100vh' }}>
       <h2 className="mb-4">Booked Shows</h2>
       <div className="table-responsive">
         <table className="table table-striped">
